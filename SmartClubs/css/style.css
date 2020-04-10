@@ -137,3 +137,20 @@ text_onlain{
     color: red;
     
 }
+.text_robot_first{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: red;
+}
+.text_robot_sekond{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+.text_robot_therd{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: #666699;
+
+}
