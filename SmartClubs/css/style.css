@@ -154,3 +154,20 @@ text_onlain{
     color: #666699;
 
 }
+.text_robot_sekond_1{
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    
+}
+.text_futer{
+    font-family: 'Anton', ;
+    font-size: 20px;
+    color: white;}
+.footer_button{
+    background-color: white;
+}
+.footer_text_button{
+     font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: blueviolet;
+}
