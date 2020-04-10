@@ -1,0 +1,139 @@
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
+.inst_border {
+	position: relative;
+
+	border: 5px solid #9932CC;
+	border-radius: 10px;
+
+	
+
+
+}
+
+
+
+.inst_border:hover {
+ 
+	border: 5px solid black;
+	border-radius: 10px;
+
+
+}
+.carousel-my_img {
+  height: 500px;
+  width: 100%;
+}
+.carusel_text{
+    font-family: 'Roboto';
+    
+    color:aliceblue;
+    font-size: 40px;
+    t
+    
+  
+
+}
+.buttoun_carusel_first{
+    background-color: blueviolet;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    
+}
+
+
+   
+   
+}
+.square {
+   width: 220px;
+    height: 120px;
+    background: #4da1f7;
+    
+    
+}
+
+
+
+.main_advantages {
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: #9932CC;
+  margin-top: 50px;
+}
+
+
+.prof_advantages {
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  color: #9932CC;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.more_information {
+  background-color: #DA70D6;
+  margin-left: -15px;
+  color: white;
+  font-size: 1.25vw;
+}
+.our_work {
+  background-color: #DA70D6;
+  color: white;
+  font-size: 1.25vw;
+}
+.our_lessons{
+    font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+    
+ 
+}
+.texr_work{
+        font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color:  #9932CC;
+  margin-top: 50px;
+    
+}
+.texr_menu_work_1{
+        font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color:  #9932CC;
+  margin-top: 10px;
+    
+}
+.texr_menu_work_2{
+        font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color:  #9932CC;
+  margin-top: 10px;
+    
+}
+.button_style_our_work{
+    background-color: blueviolet;
+}
+
+
+.visit{
+   
+   background-image: linear-gradient(90deg,#ffffff,#660099);
+    
+}
+text_onlain{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    color: red;
+    
+}
