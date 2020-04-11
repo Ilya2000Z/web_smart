@@ -56,6 +56,10 @@ body {
     
 }
 
+.bordered {
+  border: 5px solid #9932CC;
+  border-radius: 10px;
+}
 
 
 .main_advantages {
