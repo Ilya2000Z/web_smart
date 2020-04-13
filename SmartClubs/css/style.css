@@ -174,32 +174,68 @@ text_onlain{
      font-family: 'Anton', sans-serif;
     font-size: 20px;
     color: blueviolet;
-}
-.header-fixed{
-    background-color: blueviolet;
     
 }
-.onlyscroll{
-  display:none;
-}
-
 .pos_fixed{
   position:fixed;
   left:0;
   right:0;
   z-index:1000;
+    
 }
 .pos_fixed .head{
+    
   max-width: 1322px;
   padding-top: 0px;
 }
-.pos_fixed .logo img{
+.pos_fixed .logo_fullfix{
   height:70px;
+    margin-top: 60px;
+}
+.pos_fixed .logo_fullfix_call{
+
+    height:20px;
+
+}
+.pos_fixed .logo_fullfix_call_geo{
+
+margin-top: 0px;
+
+}
+.pos_fixed .logo_fullfix_size{
+    margin-top: 0px;
+   font-size: 30px;
+    height:10px;
+
+}
+.pos_fixed .logo_fullfix_size_for_text{
+    margin-top: 0px;
+   font-size: 10px;
+    height:10px;
+
 }
 .pos_fixed .adres_menu{
-  float:right;
-  width: 100%;
-  max-width: 1057px;
+ margin-top: 210px;
+}
+.pos_fixed .adres_menu_1{
+ margin-top: -400px;
+}
+.pos_fixed .adres_menu_2{
+    
+   color: black;
+
+}
+.pos_fixed .border_fixed{
+    border: 0px solid #9932CC;
+  border-radius: 0px;
+
+}
+.pos_fixed .border_fixed{
+  color: white;
+
+}
+.pos_fixed .tellephon{
+ margin-top: -1200px;
 }
 .pos_fixed .onlyscroll{
   display:block;
@@ -219,4 +255,13 @@ text_onlain{
   margin:0;
   font-size: 12px;
   display: none;
+}
+.pos_fixed .oll_size{
+  height:140px;
+}
+.Phone_defolr{
+    color: white;
+}
+.color_style_for_start{
+    color: white;
 }
