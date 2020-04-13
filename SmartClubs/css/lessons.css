@@ -1,0 +1,32 @@
+.font_main {
+ font-family: 'Lato', sans-serif;
+ color: #9932CC;
+ font-size: 48px;
+}
+
+.font_second {
+font-family: 'Comfortaa', bold;
+ color: #9932CC;
+ font-size: 20px;
+}
+
+.buttoun_carusel_first{
+    background-color: blueviolet;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    
+}
+
+.bg_lessons{
+	display: inline-table;
+    width: 310px;
+    padding: 13px 0 0 0;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    background: #fff 100% 100% no-repeat;
+    cursor: pointer;
+    position: relative;
+    line-height: normal;
+}
