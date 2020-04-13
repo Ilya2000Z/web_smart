@@ -31,7 +31,7 @@ body {
     
     color:aliceblue;
     font-size: 40px;
-    t
+    
     
   
 
@@ -174,4 +174,49 @@ text_onlain{
      font-family: 'Anton', sans-serif;
     font-size: 20px;
     color: blueviolet;
+}
+.header-fixed{
+    background-color: blueviolet;
+    
+}
+.onlyscroll{
+  display:none;
+}
+
+.pos_fixed{
+  position:fixed;
+  left:0;
+  right:0;
+  z-index:1000;
+}
+.pos_fixed .head{
+  max-width: 1322px;
+  padding-top: 0px;
+}
+.pos_fixed .logo img{
+  height:70px;
+}
+.pos_fixed .adres_menu{
+  float:right;
+  width: 100%;
+  max-width: 1057px;
+}
+.pos_fixed .onlyscroll{
+  display:block;
+  padding-top: 18px;
+}
+.pos_fixed .noscroll{
+  display:none;
+}
+.pos_fixed .but{
+  display:none;
+}
+.pos_fixed .phone{
+  float:right;
+  width: 300px;
+}
+.pos_fixed .phone span{
+  margin:0;
+  font-size: 12px;
+  display: none;
 }
