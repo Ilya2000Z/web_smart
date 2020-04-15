@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+        <link src="cod/send.php">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 
     
@@ -441,10 +442,28 @@
           <h2 class="text_robot_sekond">От центра детского развития "Смарт"</h2>
               <br>
               <h2 class="text_robot_sekond">Для записи заполните форму:</h2>
+              <br>
+              <div class="row">
+              <div class="col-sm-6 col-md-6 col-xl-6">
+              <select name="spisok" size="1">
+              <option value="шахматы">шахматы</option>
+              <option value="englesh">Английский язык</option>
+                  <option value="robot">Робототехника</option>
+            </select>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xl-6">
+              <form action="send.php" method="post">
+              <input type="text" name="fio" size="20" maxlength="" placeholder="Укажите ФИО">
+                  <input type="submit" value="Отправить">
+                  
+              </form>
+              </div>
+                  </div>
           </div>
             </div>
         </div>
     </div>
+           
     
 <!------------------------------------------------Фото---------------------------------------------->
     <div class="container-fluid" style="background-color: #ccffcc">
