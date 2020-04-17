@@ -1,17 +1,11 @@
 <?php
 $fio = $_POST['fio'];
-$email = $_POST['email'];
+$telefon = $_POST['telefon'];
 $fio = htmlspecialchars($fio);
-$email = htmlspecialchars($email);
+$telefon = htmlspecialchars($telefon);
 $fio = urldecode($fio);
-$email = urldecode($email);
+$telefon = urldecode($telefon);
 $fio = trim($fio);
-$email = trim($email);
-echo $fio;
-echo "<br>";
-echo $email;
-if (mail("example@mail.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: zie2000@mail.ru \r\n"))
- {     echo "сообщение успешно отправлено";
-} else {
-    echo "при отправке сообщения возникли ошибки";
-}?>
+$telefon = trim($telefon);
+ (mail("zie2000@mail.ru", "Заявка с сайта", "ФИО:".$fio.". telefon: ".$telefon."From: zie2000@mail.ru \r\n"))
+?>
