@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
         <link src="cod/send.php">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     
     
 	<title></title>
@@ -445,21 +446,53 @@
               <br>
               <div class="row">
               <div class="col-sm-6 col-md-6 col-xl-6">
-              <select name="spisok" size="1">
-              <option value="шахматы">шахматы</option>
+              <select form="date" name="spisok" size="1">
+              <option value="шахматы" >шахматы</option>
               <option value="englesh">Английский язык</option>
-                  <option value="robot">Робототехника</option>
+                  <option value="Робототехника">Робототехника</option>
+                     <option value="Раннее развитие">Раннее развитие </option>
+                     <option value="Логопед">Логопед </option>
+                     <option value="Детский психолог">Детский психолог</option>
+                     <option value="Ритмопластика">Ритмопластика</option>
+                   <option value="Творческая мастерская">Творческая мастерская</option>
+                   <option value="Писменные переводы">Писменные переводы</option>
+                   <option value="экзаменам Cambridge ESOL">экзаменам Cambridge ESOL</option>
             </select>
                    <br>
-                  <form action="send.php" method="post">
-                  <input type="text" name="telefon" size="12" maxlength="" placeholder="+7 телефон">
+                  <br>
+                  <form  action="send.php" method="post">
+                 
                   </form>
               </div>
-              <div class="col-sm-6 col-md-6 col-xl-6">
-              <form action="send.php" method="post">
-              <input type="text" name="fio" size="20" maxlength="" placeholder="Укажите ФИО">
-                  <input type="submit" value="Отправить">
+              <div class="col-sm-12 col-md-12 col-xl-12">
                   
+              <form id="date" action="send.php" method="post">
+                  <div class="row">
+                  <div class="col-sm-6 col-md-6 col-xl-6">
+              <input type="text" name="fio" size="20" maxlength="" placeholder="Укажите ФИО">
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-xl-6">
+                   <input type="text" name="telefon" size="20" maxlength="" placeholder="+7 телефон">
+                  </div>
+                      <br>
+                      </div>
+                  
+                      <div class="row">
+                          <br>
+                          
+                          <div class="col-sm-5 col-md-5 col-xl-5 ml-md-3 ">
+                              <br>
+                              <br>
+                    <input type="submit" value="Отправить">
+                           
+                              </div>
+                          <div class="col-sm-6 col-md-6 col-xl-6">
+                              <br>
+                             <div class="g-recaptcha" data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX"></div>
+                          </div>
+                               
+                          </div>
+                      
               </form>
               </div>
                   </div>
