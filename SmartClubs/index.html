@@ -16,7 +16,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    
+    <script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
     
 	<title></title>
 </head>
@@ -386,7 +389,7 @@
         <br>
         <h2 class="texr_menu_work_2">Раннее развитие детей от 1-го года до 3 лет.</h2>
         <br>
-       <a href="https://vk.com/namor198" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
+       <a href="early.html" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
         <br> 
     </div>
     <div class="col-sm-3 col-md-2 col-xl-2 offset-md-2 "style="background-color: white">
@@ -394,7 +397,7 @@
      <img src="img/1.png" class="img-fluid rounded-circle shadow">
     <h1 class="texr_menu_work_1">Английский язык для детей от 3-х лет и младших школьников</h1>
         <h2 class="texr_menu_work_2">Английский язык для детей от 3-х лет и младших школьников.</h2>
-       <a href="https://vk.com/namor198" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
+       <a href="english.html" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
         <br>
         </div>
     <div class="col-sm-3 col-md-2 col-xl-2 offset-md-2" style="background-color: white">
@@ -403,7 +406,7 @@
     <h1 class="texr_menu_work_1">Занятия шахматами </h1>
         <h2 class="texr_menu_work_2">Профессионалы своего дела,мастера спорта,передадут весь свой талант логически мыслить вашему ребенку.</h2>
         <br>
-       <a href="https://vk.com/namor198" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
+       <a href="chess.html" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
        <br>
     </div>
   </div>
@@ -416,7 +419,7 @@
     <h1 class="texr_menu_work_1">Робототехника</h1>
         <h2 class="texr_menu_work_2">В современном мире основанном на IT технологиях,важную роль в формировании будущегот ребенка является знание электроники</h2>
       
-      <a href="https://vk.com/namor198" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
+      <a href="" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
         <br> 
     </div>
     <div class="col-sm-3 col-md-2 col-xl-2 offset-md-2 "style="background-color: white">
@@ -425,7 +428,7 @@
     <h1 class="texr_menu_work_1">Логопедический театр для детей</h1>
         <h2 class="texr_menu_work_2">Занятие на развитие речи, постановке звуков и расширению словарного запаса.</h2>
         <br>
-        <a href="https://vk.com/namor198" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
+        <a href="bfschool.html" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
         <br>
         </div>
     <div class="col-sm-3 col-md-2 col-xl-2 offset-md-2" style="background-color: white">
@@ -433,7 +436,7 @@
      <img src="img/5.png" class="img-fluid rounded-circle shadow">
     <h1 class="texr_menu_work_1">Творческая студия для детей</h1>
         <h2 class="texr_menu_work_2">Сдесь ваш ребенок научится мастерству художественного ремесла и сможет раскрыть свой талант.</h2>
-       <a href="https://vk.com/namor198" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
+       <a href="art.html" class="btn btn-primary button_style_our_work d-block w-100 d" role="button" aria-pressed="true">Подробнее</a>
        <br>
     </div>
   </div>
@@ -463,8 +466,9 @@
               <br>
               <div class="row">
               <div class="col-sm-6 col-md-6 col-xl-6">
-              <select form="date" name="spisok" size="1">
-              <option value="шахматы" >шахматы</option>
+              <select form="date" name="spisok" size="1" class="spisok">
+                  <option value="vubor" disabled>Выберете заняти</option>
+              <option value="шахматы" >Шахматы</option>
               <option value="englesh">Английский язык</option>
                   <option value="Робототехника">Робототехника</option>
                      <option value="Раннее развитие">Раннее развитие </option>
@@ -473,23 +477,23 @@
                      <option value="Ритмопластика">Ритмопластика</option>
                    <option value="Творческая мастерская">Творческая мастерская</option>
                    <option value="Писменные переводы">Писменные переводы</option>
-                   <option value="экзаменам Cambridge ESOL">экзаменам Cambridge ESOL</option>
-            </select>
-                   <br>
+                   <option value="экзаменам Cambridge ESOL">Экзаменам Cambridge ESOL</option>
                   <br>
-                  <form  action="send.php" method="post">
-                 
-                  </form>
-              </div>
+                  <br>
+            </select>
+                  
+                 </div>
               <div class="col-sm-12 col-md-12 col-xl-12">
                   
-              <form id="date" action="send.php" method="post">
+            
                   <div class="row">
                   <div class="col-sm-6 col-md-6 col-xl-6">
-              <input type="text" name="fio" size="20" maxlength="" placeholder="Укажите ФИО">
+                      <br>
+                      <br>
+              <input type="text" name="fio" size="20" maxlength="" class="fio" placeholder="Укажите ФИО">
                   </div>
                   <div class="col-sm-6 col-md-6 col-xl-6">
-                   <input type="text" name="telefon" size="20" maxlength="" placeholder="+7 телефон">
+                   <input type="text" name="telefon" size="20" maxlength="" class="telefon" placeholder="+7 телефон">
                   </div>
                       <br>
                       </div>
@@ -500,7 +504,7 @@
                           <div class="col-sm-5 col-md-5 col-xl-5 ml-md-3 ">
                               <br>
                               <br>
-                    <input type="submit" value="Отправить">
+                    <button  class="otpravka">Отправить</button>
                            
                               </div>
                           <div class="col-sm-6 col-md-6 col-xl-6">
@@ -510,7 +514,29 @@
                                
                           </div>
                       
-              </form>
+      
+                  <script>
+                      $(document).ready(function(){
+                          $('button.otpravka').on('click',function(){
+                              var fiovelu=$('input.fio').val();
+                              var telefonvelu=$('input.telefon').val();
+                              var spisokvalu=$('select.spisok').val();
+                          
+                       
+
+                              $.ajax({
+                              method: "POST",
+                              url: "send.php",
+                              data: { fio: fiovelu, telefon: telefonvelu,spisok: spisokvalu }
+                            })
+                              .done(function( ) {
+                            //    alert( "Data Saved: " + msg );
+                              });  
+                              $('input.fio').val('');
+                              $('input.telefon').val('');
+                                                        })
+                                                        });
+                  </script>
               </div>
                   </div>
           </div>
@@ -648,7 +674,7 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript"> 
@@ -660,6 +686,7 @@
          return false; 
      } 
 </script>
+
 </body>
 
 </html>
