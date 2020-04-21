@@ -97,13 +97,11 @@
         <a class="nav-link color_nav"style="color: blueviolet" href="rewies.html">Отзывы</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link color_nav"style="color: blueviolet" href="#">Новости</a>
+        <a class="nav-link color_nav"style="color: blueviolet" href="news.html">Новости</a>
       </li>
+             
               <li class="nav-item">
-        <a class="nav-link color_nav"style="color: blueviolet" href="#">Блог</a>
-      </li>
-              <li class="nav-item">
-        <a class="nav-link color_nav"style="color: blueviolet" href="#">Контакты</a>
+        <a class="nav-link color_nav"style="color: blueviolet" href="contacts.html">Контакты</a>
       </li>
     </ul>
    </div>
@@ -180,9 +178,6 @@
 
 });
     });
-  
-
-    
 </script>
    <!-------------------------------------------Desqes--------------------------------------------------------------->
 <div class="conteiner">
@@ -212,15 +207,60 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
         </div>
-        <div class="col-sm-3 col-md-3 col-xl-3 offset-md-1" style="background-color: blueviolet; border-radius: 10px" >
+        <div class="col-sm-3 col-md-3 col-xl-3 ml-md-5 " style="background-color: blueviolet; border-radius: 10px" >
           <br>
-            <h1>50% Скидки</h1>
-          <h2>На первое занятие в детском центре "Смарт"</h2>
-            <h3>Для записи заполните форму:</h3>
+            <div class="col-sm-12 col-md-12 col-xl-12">
+                
+            <h1 class="text_rewues"> 50% Скидки</h1>
+     
+                
+          <h2 class="text_rewues"> На первое занятие в детском центре "Смарт"</h2>
+            <p class="text_rewues">Для записи заполните форму:</p>
+             
+        
+               
+                 
+                <div class="col-sm-10 col-md-10 col-xl-10 offset-md-1">
+              <input type="text" name="fio" size="20" maxlength="" class="fio" placeholder="Укажите ФИО">
+                 
+                  <input type="text" name="telefon" size="20" maxlength="" class="telefon" placeholder="+7 телефон">
+                 </div>
+                    
+                <div class="col-sm-6 col-md-6 col-xl-6 offset-md-1">
+                    <button  class="otpravka">Отправить</button>
+                           
+                            </div>
+                        
+                           
+               
+                      
+      
+                  <script>
+                      $(document).ready(function(){
+                          $('button.otpravka').on('click',function(){
+                              var fiovelu=$('input.fio').val();
+                              var telefonvelu=$('input.telefon').val();
+                              var spisokvalu=$('select.spisok').val();
+                          
+                       
+
+                              $.ajax({
+                              method: "POST",
+                              url: "send.php",
+                              data: { fio: fiovelu, telefon: telefonvelu,spisok: spisokvalu }
+                            })
+                              .done(function( ) {
+                            //    alert( "Data Saved: " + msg );
+                              });  
+                              $('input.fio').val('');
+                              $('input.telefon').val('');
+                                                        })
+                                                        });
+                  </script>
+                </div>
+              </div>
           
           </div>
-    </div>
-</div>
 <!-------------------------------------------------------phuter----------------------------------------------------->
  <div class="container-fluid" style="background-color: #660099">
     <div class="row">
