@@ -286,3 +286,10 @@ box-shadow: 5px 3px 3px #555;
     font-family: 'Anton', sans-serif;
     color: white;
 }
+
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+i {
+font-family: fontawesome !important;
+}
