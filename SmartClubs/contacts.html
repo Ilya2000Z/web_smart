@@ -178,15 +178,15 @@
 <!-------------------------------------------------MAIN--------------------------------------->
 <div class="container-fluid">
   <div class="row">
-    <div class="col-12">
-      <p class="font_main">Контакты</p>
+    <div class="col-12 ml-3">
+      <p class="font_main ml-4">Контакты</p>
     </div>
   </div>
 
 
   <div class="row">
-    <div class="col-2 ">
-      <p class="fonts_c"> НАШ АДРЕС:</p>  г.Симферополь, улица Дмитрия Ульянова, 16
+    <div class="col-3 ">
+      <p class="fonts_c ml-5"> НАШ АДРЕС:</p> <p class="ml-5"> г.Симферополь, улица Дмитрия Ульянова, 16 </p>
       <hr class="hr">
     </div>
 
@@ -200,51 +200,118 @@
 
 
 <div class="row">
-    <div class="col-2 ">
-      <p class="fonts_c"> ЭЛЕКТРОННАЯ ПОЧТА:</p>smartclub@ukr.net
+    <div class="col-3 ">
+      <p class="fonts_c ml-5"> ЭЛЕКТРОННАЯ ПОЧТА:</p> <p class="ml-5">smartclub@ukr.net</p>
       <hr class="hr">
     </div>
   </div>
 
 <div class="row">
-    <div class="col-2 ">
-      <p class="fonts_c"> ТЕЛЕФОН:</p>+7 (978) 759-34-89
+    <div class="col-3 ">
+      <p class="fonts_c ml-5"> ТЕЛЕФОН:</p> <p class="ml-5">+7 (978) 759-34-89</p>
       <hr class="hr">
     </div>
   </div>
 
 <div class="row">
-    <div class="col-2 ">
-      <p class="fonts_c"> ВКОНТАКЕ:</p> <a href="https://vk.com/simf_smart_club"> Smart Club</a>
+    <div class="col-3 ">
+      <p class="fonts_c ml-5"> ВКОНТАКЕ:</p> <a href="https://vk.com/simf_smart_club" class="ml-5"> Smart Club</a>
        <hr class="hr">
     </div>
   </div>
 
 <div class="row">
-    <div class="col-2 ">
-      <p class="fonts_c"> INSTAGRAM:</p><a href="https://www.instagram.com/smart_club_simf/?igshid=15imwhw4arz4r"> Smart Club</a>
+    <div class="col-3 ">
+      <p class="fonts_c ml-5"> INSTAGRAM:</p><a href="https://www.instagram.com/smart_club_simf/?igshid=15imwhw4arz4r" class="ml-5"> Smart Club</a>
       <hr class="hr">
-       <p class="font_main_third"> ОБРАТНАЯ СВЯЗЬ</p>
+       <p class="font_main_third ml-5"> ОБРАТНАЯ СВЯЗЬ</p>
+     </div>
+   </div>
+   <div class="row">
+       <div class="col-sm-3 col-md-3 col-xl-3 ml-md-5 " style="background-color:#cc99ff; border-radius: 10px; border: 5px solid #9932CC; " >
+          <br>
+            <div class="col-sm-12 col-md-12 col-xl-12">
+                <div class="col-sm-11 col-md-11 col-xl-11">
+            <h1 class="text_rewues" style="color: red"> 50% Скидки</h1>
+                </div>
+                
+          <h2 class="text_rewues"> На первое занятие в детском центре </h2>
+                <div class="col-sm-5 col-md-5 col-xl-5 offset-md-2 ">
+                    <h2 class="text_rewues">"Смарт"</h2>
+                </div>    
+                <div class="col-sm-11 col-md-11 col-xl-11 offset-md-">
+            <p class="text_rewues " style="color: black">Для записи заполните форму:</p>
+                </div>
+        
+               
+                 
+                <div class="col-sm-10 col-md-10 col-xl-10  offset-md-1 ">
+              <input type="text" name="fio" size="20" maxlength="" class="fio" placeholder="Укажите ФИО">
+                 
+                  <input type="text" name="telefon" size="20" maxlength="" class="telefon" placeholder="+7 телефон">
+                 </div>
+                    
+                <div class="col-sm-7 col-md-7 col-xl-7 offset-md-2">
+                    <br>
+                    <button  class="otpravka">Отправить</button>
+                        <br>   
+                            </div>
+                <br>
+                        
+                           
+               </div>
+                    
+      
+                  <script>
+                      $(document).ready(function(){
+                          $('button.otpravka').on('click',function(){
+                              var fiovelu=$('input.fio').val();
+                              var telefonvelu=$('input.telefon').val();
+                              var spisokvalu=$('select.spisok').val();
+                          
+                       
+
+                              $.ajax({
+                              method: "POST",
+                              url: "send.php",
+                              data: { fio: fiovelu, telefon: telefonvelu,spisok: spisokvalu }
+                            })
+                              .done(function( ) {
+                            //    alert( "Data Saved: " + msg );
+                              });  
+                              $('input.fio').val('');
+                              $('input.telefon').val('');
+                                                        })
+                                                        });
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
     </div>
   </div>
 
-<<<<<<< HEAD
-=======
-<div class="container-fluid">
 
-        
-        <iframe class="col-12 col-sm-12 col-md-12 col-xl-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.871104993319!2d34.0849601154482!3d44.92595667721676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40eade9b4ee92c33%3A0x9d23cb76eab4124e!2z0YPQuy4g0JTQvNC40YLRgNC40Y8g0KPQu9GM0Y_QvdC-0LLQsCwgMTYsINCh0LjQvNGE0LXRgNC-0L_QvtC70Yw!5e0!3m2!1sru!2s!4v1586556495681!5m2!1sru!2s"  height="380px"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-        </iframe>
-        <div class="col-sm-4 col-md-4 col-xl-3" style="height: 0px">
-        <img src="img/%D0%BA%D0%B0%D1%80%D1%82%D1%8B%20%D0%B4%D0%BE%D0%BF.png" class="img-fluid" style="z-index:9999; margin-top: -400px" >
-        </div>
-            
-    
-    </div>
-    <br><br>
 
-    </div>
->>>>>>> 42232f4abfb0c1d21a4f6866a71dd19b0889b79f
+
 
 
  
