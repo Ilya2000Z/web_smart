@@ -14,3 +14,19 @@
  color: #9932CC;
  font-size: 24px;
 }
+
+
+
+
+
+
+.col_left{
+    width:100%;
+  }
+
+  .cp_map {
+     float: right;
+    width: 100%;
+    
+
+  }
